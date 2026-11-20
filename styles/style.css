@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #1d2f30;
+    color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.hero{
+    background-image:
+    linear-gradient(
+        rgba(29, 47, 48, 0.7),
+        rgba(29, 47, 48, 0.7)
+    ),
+    url("/images/1_1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header__logo-image{
+    width: 65px;
+    height: 20px;
+}
+
+.header__logo {
+    width: 65px;
+    height: 20px;
+}
+
+.hero__title{
+    max-width: 690px;
+    margin-bottom: 16px;
+    font-family: "Cormorant", Georgia, serif;
+    line-height: 1;
+}
+
+.hero__description{
+    max-width: 650px;
+    margin-bottom: 24px;
+}
+
+.hero__link {
+    display: inline-block;
+}
+
+.header{
+    background-color: #0b1919;
+}
+
+.header__button{
+    color: #bae249;
+}
+
+.header__container {
+    min-height: 60px;
+}
+
+.hero__link{
+    display: inline-block;
+    color: #bae249;
+}
+
+.hero__container {
+    padding-top: 90px;
+    padding-bottom: 94px;
+}
+
+.catalog{
+    padding: 60px 0;
+}
+
+.catalog__list {
+    margin-bottom: 26px;
+}
+
+.catalog__item {
+    width: 255px;
+}
+
+.card {
+    border: 1px solid #0b1919;
+}
+
+.card__content {
+    min-height: 313px;
+    padding: 16px;
+}
+
+.card__title {
+    margin-bottom: 8px;
+    font-family: "Cormorant", Georgia, serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.card__description {
+    color: #899d9d;
+}
+
+.card__link {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    padding: 20px 16px;
+    border: 1px solid #bae249;
+    color: #bae249;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+    padding-left: 30px;
+}
+
+.new-artifacts__title {
+    font-family: "Cormorant", Georgia, serif;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 1;
+}
+
+.new-artifacts__subtitle {
+    font-family: "Cormorant", Georgia, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
