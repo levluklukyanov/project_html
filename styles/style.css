@@ -46,10 +46,17 @@ body {
 }
 
 .hero__title{
-    max-width: 690px;
+    max-width: 690px;   
+    width: 629px;
+    height: 138px;
+    top: 146px;
+    left: 160px;
     margin-bottom: 16px;
     font-family: "Cormorant", Georgia, serif;
-    line-height: 1;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 700;
+    font-size: 60px;
 }
 
 .hero__description{
@@ -62,15 +69,33 @@ body {
 }
 
 .header{
-    background-color: #0b1919;
+    background-color: #1d2f30;
 }
 
 .header__button{
     color: #bae249;
+    background-color: #1d2f30;
+    border: none;
 }
 
 .header__container {
     min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
 }
 
 .hero__link{
@@ -89,19 +114,31 @@ body {
 
 .catalog__list {
     margin-bottom: 26px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 26px;
 }
 
 .catalog__item {
-    width: 255px;
+    flex-basis: 255px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .card {
     border: 1px solid #0b1919;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }
 
 .card__content {
     min-height: 313px;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
 }
 
 .card__title {
@@ -118,17 +155,18 @@ body {
 .card__link {
     display: block;
     width: 100%;
-    margin-top: 24px;
+    margin-top: auto;
     padding: 20px 16px;
     border: 1px solid #bae249;
     color: #bae249;
+    text-align: center;
 }
 
 .container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding-right: 30px;
     padding-left: 30px;
 }
 
@@ -144,4 +182,38 @@ body {
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+
+.new-artifacts__content {
+    display: flex;
+    gap: 30px;
+}
+
+.new-artifacts__gallery {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.new-artifacts__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    color: #1d2f30;
+    background-color: #bae249;
+    flex-basis: 255px;
+    flex-shrink: 0;
+}
+
+.new-artifacts__image {
+    width: 100%;
+}
+
+.new-artifacts__link {
+    width: 166px;
+    height: 22px;
+    font-weight: 700;
+    color: #0B1919;
+    font-size: 16px;
+    line-height: 100%;
 }
