@@ -221,11 +221,3 @@ body {
     color: #506829;
     margin-bottom: 24px;
 }
-
-.support__title {
-    font-family: "Cormorant", Georgia, serif;
-    font-size: 48px;
-    font-style: italic;
-    line-height: 1;
-    margin: 24px;
-}
