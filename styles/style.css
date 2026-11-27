@@ -116,7 +116,6 @@ body {
     margin-bottom: 26px;
     display: flex;
     gap: 30px;
-    margin-bottom: 26px;
 }
 
 .catalog__item {
@@ -135,10 +134,6 @@ body {
 .card__content {
     min-height: 313px;
     padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-grow: 1;
 }
 
 .card__title {
@@ -153,13 +148,14 @@ body {
 }
 
 .card__link {
-    display: block;
+    display: flex;
     width: 100%;
     margin-top: auto;
     padding: 20px 16px;
     border: 1px solid #bae249;
     color: #bae249;
-    text-align: center;
+    justify-content: center;
+    margin-top: auto;
 }
 
 .container {
@@ -175,7 +171,9 @@ body {
     font-size: 48px;
     font-style: italic;
     line-height: 1;
+    margin: 24px;
 }
+
 
 .new-artifacts__subtitle {
     font-family: "Cormorant", Georgia, serif;
@@ -213,7 +211,21 @@ body {
     width: 166px;
     height: 22px;
     font-weight: 700;
-    color: #0B1919;
+    color: #0b1919;
     font-size: 16px;
     line-height: 100%;
+    margin-top: auto;
+}
+
+.new-artifacts__description {
+    color: #506829;
+    margin-bottom: 24px;
+}
+
+.support__title {
+    font-family: "Cormorant", Georgia, serif;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 1;
+    margin: 24px;
 }
