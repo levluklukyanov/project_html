@@ -129,11 +129,16 @@ body {
     display: flex;
     height: 100%;
     flex-direction: column;
+    
 }
 
 .card__content {
     min-height: 313px;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
 }
 
 .card__title {
@@ -147,15 +152,23 @@ body {
     color: #899d9d;
 }
 
-.card__link {
-    display: flex;
+.card__link{
     width: 100%;
-    margin-top: auto;
     padding: 20px 16px;
     border: 1px solid #bae249;
     color: #bae249;
-    justify-content: center;
+    display: flex;
     margin-top: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.card__image {
+    background-color: #0b1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
 }
 
 .container {
@@ -220,4 +233,24 @@ body {
 .new-artifacts__description {
     color: #506829;
     margin-bottom: 24px;
+}
+
+.card__image-wrapper {
+    position: relative;
+}
+
+.card__number {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    border: 1px solid #899d9d;
+    border-radius: 50%;
+    font-family: "Cormorant", Georgia, serif;
+    font-weight: 700;
+    line-height: 1;
+    color: #899d9d;
 }
